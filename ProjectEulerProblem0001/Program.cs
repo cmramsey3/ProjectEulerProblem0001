@@ -15,15 +15,15 @@ namespace ProjectEulerProblem0001
             Console.WriteLine("Project Euler Problem 001 " + SolveProjectEulerProblem001());
         }
         /// <summary>
-        /// Uses a for loop to find all multiples of 3 and 5
+        /// Uses a for loop to find all multiples of 3, 5, and 7
         /// </summary>
-        /// <returns>Sum of all multiples of 3 and 5 under 1000</returns>
+        /// <returns>Sum of all multiples of 3, 5, and 7 under 1000</returns>
         static int SolveProjectEulerProblem001()
         {
             int sum = 0;
             for (int i = 0; i < 1000; i++)
             {
-                if (i % 3 == 0 || i % 5 == 0)
+                if (i % 3 == 0 || i % 5 == 0 || i % 7 == 0)
                 {
                     sum = sum + i;
                 }
