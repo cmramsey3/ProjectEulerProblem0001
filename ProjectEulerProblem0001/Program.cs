@@ -28,7 +28,7 @@ namespace ProjectEulerProblem0001
                     sum = sum + i;
                 }
             }
-            return sum;
+            return sum + 5;
         }
     }
 }
